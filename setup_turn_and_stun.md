@@ -17,9 +17,9 @@ make && sudo make install
 
 # Configuring the Coturn Server
 
-sudo cp /usr/local/etc/turnserver.conf turnserver.cnf.bk
 
 ```
+sudo cp /usr/local/etc/turnserver.conf turnserver.cnf.bk
 nano /usr/local/etc/turnserver.conf
 ```
 
