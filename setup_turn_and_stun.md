@@ -2,25 +2,26 @@
 
 - Coturn/Stun Servers [source built]
 
+```bash
 sudo apt-get -y update
-
 sudo apt-get -y install build-essential sqlite libsqlite3-dev libevent-dev libssl-dev
+```
 
+```bash
 wget http://turnserver.open-sys.org/downloads/v4.5.0.8/turnserver-4.5.0.8.tar.gz
-
 tar -xzvf turnserver-4.5.0.8.tar.gz
-
 cd turnserver-4.5.0.8
 ./configure
-
 make && sudo make install
-
+```
 
 # Configuring the Coturn Server
 
 sudo cp /usr/local/etc/turnserver.conf turnserver.cnf.bk
 
+```
 nano /usr/local/etc/turnserver.conf
+```
 
 Replace these values:
 
