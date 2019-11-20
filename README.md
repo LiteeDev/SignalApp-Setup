@@ -6,9 +6,9 @@ I was removed from the project due to a dispute between me and the boss but was 
 
 If you’re prepared to help out, please fork the repo and fill in any necessary steps or procedures that you feel are important or missing :smiley:
 
-Steps:
+[b]Steps:[/b]
 
-Requirements
+- Requirements
 - Setup Signal Server
 - Setup Nginx & LetsEncrypt
 - Setup Turn And Stun
@@ -17,5 +17,7 @@ Requirements
 
 
 Contact Information:
+
 Email: office@litespeed.me
+
 Telegram: @LiteSpeedDev
