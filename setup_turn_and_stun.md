@@ -58,10 +58,10 @@ Then to proceed to edit the signal-server configuration with this:
 turn: # TURN server configuration
   secret: test
   uris:
-    - stun:51.89.172.170:3478
-    - stun:51.89.172.170:5349
-    - turn:51.89.172.170:5349?transport=udp
-    - turn:51.89.172.170:3478?transport=udp
+    - stun:0.0.0.0:3478 # REPLACE 0.0.0.0 with your IP.
+    - stun:0.0.0.0:5349
+    - turn:0.0.0.0:5349?transport=udp
+    - turn:0.0.0.0:3478?transport=udp
 ```
 
 # Restart Turn & Stuns and also the signal server and Calls and Video Calls will work :)
