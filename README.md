@@ -6,7 +6,7 @@ I was removed from the project due to a dispute between me and the boss but was 
 
 If you’re prepared to help out, please fork the repo and fill in any necessary steps or procedures that you feel are important or missing :smiley:
 
-[b]Steps:[/b]
+# Steps:
 
 - Requirements
 - Setup Signal Server
