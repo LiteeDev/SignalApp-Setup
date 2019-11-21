@@ -28,7 +28,7 @@ To be sure to have the latest version of the software.
   ```
 
 ### Install Redis
-  ```bash
+  ```
     sudo apt-get install -y redis-server redis-sentinel
     sudo systemctl start redis
     sudo systemctl enable redis
@@ -38,7 +38,7 @@ To be sure to have the latest version of the software.
 
 
 ### Install database
-	```bash
+```
     sudo apt-get install postgresql postgresql-contrib -y
     sudo -i -u postgres
   	createdb accountdb
@@ -51,20 +51,20 @@ To be sure to have the latest version of the software.
 
 ## Remotely access to the PostgreSQL database
 
-    To open the port 5432 edit your ``/etc/postgresql/10/main/postgresql.conf``` and change
+    To open the port 5432 edit your ```/etc/postgresql/10/main/postgresql.conf``` and change
 
-  	```bash
+  	```
       listen_addresses='localhost' // listen_addresses='*'
     ```
 
     To modify the access configuration edit your ``/etc/postgresql/10/main/pg_hba.conf``` and add this to the bottom of the file
 
-    ```bash
+    ```
       host all all * md5
     ```
 
     And restart or restart you DBMS
 
-    ```bash
+    ```
       invoke-rc.d postgresql restart
     ```
