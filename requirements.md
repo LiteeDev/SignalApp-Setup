@@ -7,7 +7,7 @@ If you're planning to setup the Contact Discovery, I personally recommend settin
 
 To be sure to have the latest version of the software.
 
-	```bash
+```
     sudo apt-get update
     sudo apt-get -y install maven build-essential  
   ```
@@ -16,7 +16,7 @@ To be sure to have the latest version of the software.
 
   You will need to create an oracle account to download the actual software.
 
-  ```bash
+  ```
   Oracle Java 11 can’t be directly downloaded from Oracle website any more! Now you HAVE to log in and manually download Oracle Java 11 .tar.gz, and place the archive in /var/cache/oracle-jdk11-installer-local/
   ```
 
