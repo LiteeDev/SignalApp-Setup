@@ -8,12 +8,14 @@ If you’re prepared to help out, please fork the repo and fill in any necessary
 
 # Steps:
 
-- Requirements
-- Setup Signal Server
-- Setup Nginx & LetsEncrypt
-- Setup Turn And Stun
-- Setup Whisper Store
-- Common Issue (Account Database Crawler (Removes the horrid warn log) or Redis Crashing)
+- [Requirements](./requirements.md)
+- [Setup Signal Server](./setup_signal_server.md)
+- [Setup Nginx & LetsEncrypt](./setup_nginx_and_letsencrypt.md)
+- [Setup Turn And Stun](./setup_turn_and_stun.md)
+- [Setup Whisper Store](./setup_whisper_store.md)
+- Common Issues
+  - [Account Database Crawler (Removes the horrid warn log)](./fixing-1000's-errors-in-signal-server.md)
+  - [Redis crashing](./redis-bug.md)
 
 
 Contact Information:
