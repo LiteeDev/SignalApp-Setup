@@ -20,4 +20,4 @@ Contact Information:
 
 Email: office@litespeed.me
 
-Telegram: @LiteSpeedDev
+Telegram: [@LiteeeDev](https://t.me/LiteeeDev)
